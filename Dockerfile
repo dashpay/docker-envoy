@@ -1,4 +1,4 @@
-FROM envoyproxy/envoy:v1.30.1
+FROM envoyproxy/envoy:v1.35.11
 
 RUN apt update && \
     apt -qq -y install python3 && \
